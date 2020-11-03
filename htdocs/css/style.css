@@ -1,0 +1,92 @@
+html {
+    max-width: 1000px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: black;
+    color: white;
+}
+body h1 {
+    padding: 0 10px;
+}
+body a {
+    padding: 0 10px;
+}
+header {
+    text-align: center;
+    padding: 10px 0 ;
+}
+header h1 {
+    margin: 0;
+    margin: 0;
+    text-decoration: underline;
+}
+textarea {
+    width: 80%;
+    height: 100px;
+}
+main {
+    padding: 0 10px;
+}
+main p {
+    margin: 0;
+    padding: 10px;
+}
+main h3 {
+    margin: 0;
+}
+.ok {
+    padding: 0 10px;
+}
+side {
+    display: block;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+img {
+    border-radius: 10%;
+    width: 80%;
+}
+.imgm {
+    text-align: center;
+}
+.img {
+    text-align: center;
+}
+.img:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+side p {
+    padding: 0 10px;
+}
+side h3 {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width:600px) {
+    warapper {
+        display: flex;
+    }    
+    main {
+        width: 70%;
+    }
+    side {
+        width: 30%;
+    }
+    img {
+        width: 80%;
+    }
+
+}
